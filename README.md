@@ -1,3 +1,1 @@
-# meu_projeto_versionado
-Descrição teste
-Uma nova linha
+# Projeto com CSS, html basicos
