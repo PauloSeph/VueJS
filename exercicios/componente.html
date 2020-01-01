@@ -8,17 +8,17 @@
 </head>
 <body class="exercicio">
     <div id="app">
-        <saudacao nome="Ana"></saudacao>
-        <saudacao nome="Bia"></saudacao>
-        <saudacao nome="Julia"></saudacao>
+        <saudacao-irmao nome="Ana" seinao="Seiieieie" ></saudacao-irmao>
+        <saudacao-irmao nome="Bia"></saudacao-irmao>
+        <saudacao-irmao nome="Julia"></saudacao-irmao>
     </div>
 
 
     <script>
-        Vue.component('saudacao', {
-            props: ['nome'],
+        Vue.component('SaudacaoIrmao', {
+            props: ['nome', 'seinao'],
             template: `
-                <div>Bom dia {{ nome }}!</div>
+                <div>Bom dia {{ nome }} {{seinao}}!</div>
             `
 
         })
